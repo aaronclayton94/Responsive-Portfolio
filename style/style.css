@@ -1,29 +1,32 @@
-* {
-
-}
-
-h2 {
-    background: #333;
-    color: aliceblue;
-}
-
-.nav-link {
-    color: gray;
-}
-
-@media screen and (max-width: 960px) {
-    body {
-        width: 906px;
-    }
+html {
+    height: 100%;
 }
 
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(/style/background.png);
+}
 
 
+.sticky-footer {
+    background: gray;
+    color: white;
+    margin-top: auto;
+    border-top: 6px solid #00caca;
+}
 
-
-
-
+.form {
+    padding: 5px;
+}
+.btn {
+    background-color: #00caca;
+    border: 0px;
+    border-radius: 0rem;
+    width: 20%;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
