@@ -58,7 +58,7 @@ h2 {
 }
 
 
-#lionPage, #trollLol {
+.card-text:last-child {
     color: #00caca;
     font-size: 30px;
     position: absolute;
