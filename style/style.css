@@ -32,6 +32,10 @@ body {
     align-items: flex-start;
 }
 
+.card-text:last-child {
+
+}
+
 .navbar-name {
     font-size: 30px;
     background-color: #00caca;
@@ -52,6 +56,17 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
 }
+
+
+#lionPage, #trollLol {
+    color: #00caca;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
